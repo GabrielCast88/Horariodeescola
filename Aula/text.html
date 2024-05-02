@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horário de Aula</title>
+    <link rel="stylesheet" href="text.css">
+</head>
+<body>
+    <div class="container">
+        <h2 class="school-info">Escola Estadual Lourdes Guilherme </h2>
+        <h2 class="school-info"> 2º ano do Ensino Médio Matutino</h2>
+
+        <h2>Selecione um dia da semana</h2>
+        <div class="dias-semana">
+            <button onclick="mostrarAulas('segunda')">Segunda</button>
+            <button onclick="mostrarAulas('terca')">Terça</button>
+            <button onclick="mostrarAulas('quarta')">Quarta</button>
+            <button onclick="mostrarAulas('quinta')">Quinta</button>
+            <button onclick="mostrarAulas('sexta')">Sexta</button>
+        </div>
+        <div class="aulas" id="aulas">
+           
+        </div>
+    </div>
+    <script src="text.js"></script>
+</body>
+</html>

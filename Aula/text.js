@@ -1,0 +1,2 @@
+function mostrarAulas(a){var b=document.getElementById("aulas");b.innerHTML="";b.innerHTML="segunda"===a?"<img src=\"Aula-Seg.png\" alt=\"Aulas de Segunda\">":"terca"===a?"<img src=\"Aula-Ter.png\" alt=\"Aulas de Ter\xE7a\">":"quarta"===a?"<img src=\"Aula-qua.png\" alt=\"Aulas de Quarta\">":"quinta"===a?"<img src=\"Aula-qui.png\" alt=\"Aulas de Quinta\">":"sexta"===a?"<img src=\"Aula-sex.png\" alt=\"Aulas de Sexta\">":"<p>Selecione um dia v\xE1lido</p>";b.style.display="block"}
+
